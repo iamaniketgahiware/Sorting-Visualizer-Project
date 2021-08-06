@@ -1,0 +1,104 @@
+.mySlides {
+	display: none;
+}
+ 
+
+.head {
+    width: 100%;
+    height: 100px;
+    border: 1px solid slategray;
+    background-color: rgb(62, 63, 75);
+	
+}
+
+.data-container {
+	width: 700px;
+	height: 484px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(55, 141, 175);
+	transition: 0.7s all ease;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	overflow: hidden;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dbe3f8;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+nav{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+button{
+    padding: 15px 40px;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    background: #333;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    margin-right: 25px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    background :#fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.col-1,.col-2{
+    flex-basis: 50%;
+    overflow: hidden;
+	margin-bottom: 35px;
+}
+.col-1{
+    padding: 8% 5%;
+}
+.col-1 h1{
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: bold;
+}
+.col-1 p{
+    color: #777;
+    line-height: 22px;
+    margin: 15px 0 30px;
+    font-size: 25px;
+}
+

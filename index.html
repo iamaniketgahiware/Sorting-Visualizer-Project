@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo"></div>
+            
+                <button id="Button2" type="button" onclick="BubbleSort(),disable()">Bubble Sort</button>
+                <button id="Button3" type="button" onclick="SelectionSort(),disable()">Selection Sort</button>
+                <button id="Button4" type="button" onclick="InsertionSort(),disable()">Insertion Sort</button>
+                <button id="Button5" type="button" onclick="MergeSort(),disable()">Merge Sort</button>
+                <button id="Button6" type="button" onclick="QuickSort(),disable()">Quick Sort</button>
+            </nav>
+            <div class="row">
+                <div class="col-1">
+                    <h1>Sorting Visualizer Project</h1>
+                    <p>This Project is Based on Sorting Algorithms</p>
+                    <button id="Button1" type="button" onclick="generate()">Generate New Array</button>
+                    
+                </div>
+            <div class="col-2">
+                <section class="data-container"></section>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="selection.js"></script>
+<script src="bubble.js"></script>
+<script src="insertion.js"></script>
+</html>
